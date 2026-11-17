@@ -1,0 +1,4 @@
+interface:
+  display_name: "快科研 Rapid"
+  short_description: "从已有研究材料快速推进论文，支持查新、写稿、绘图、点单审稿和投稿打包"
+  default_prompt: "用 $rapid 从我已有的材料接着推进论文，选用当前需要的环节。"
