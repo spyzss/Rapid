@@ -6,10 +6,10 @@ Rapid 把 ARIS、Orchestra、Nature Skills 和 K-Dense 的科研技能串成一�
 |---|---|---|
 | 1. 选题与定位 | ARIS `research-refine` | 方向还很宽，用 `idea-discovery` 先收敛 |
 | 2. 查新与作者调研 | ARIS `novelty-check` | 查作者、引用关系或引文元数据时用 Nature 或 K-Dense |
-| 3. 资源与实验证据 | ARIS `experiment-plan` | 结果已有，直接用 `paper-claim-audit` 对齐主张和证据 |
-| 4. 写稿与主图 | Orchestra `ml-paper-writing` + `nature-figure` | 需要会议 LaTeX 骨架时用 ARIS `paper-write` |
+| 3. 资源与实验证据 | ARIS `experiment-plan` 或 `result-to-claim` | 按需分析不确定性或核理论证明 |
+| 4. 写稿与主图 | Orchestra `ml-paper-writing` + `nature-figure` | 定稿前对原始结果核主张，对论文原文核引文 |
 | 5. 审稿与返修 | `nature-reviewer`，可点选视角 | 统计与复现深查用 K-Dense，真实审稿意见用 `nature-response` |
-| 6. 投稿准备 | ARIS `paper-compile` + venue 官方规则 | 换 venue 用 `resubmit-pipeline` |
+| 6. 投稿准备 | ARIS `paper-compile` + venue 官方规则 | 按需打包复现材料、准备 camera-ready 或换 venue |
 
 选题之后先确认最近的工作做到了哪一步，再估算数据、算力、时间和最小实验。用同一批证据写 Results、出主图和审稿。遇到有实质影响的审稿意见，回到对应步骤修，后续环节接着用更新后的产物。
 
