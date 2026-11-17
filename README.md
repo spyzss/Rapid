@@ -11,7 +11,7 @@ Rapid 把 ARIS、Orchestra、Nature Skills 和 K-Dense 的科研技能串成一�
 | 5. 审稿与返修 | `nature-reviewer`，可点选视角 | 统计与复现深查用 K-Dense，真实审稿意见用 `nature-response` |
 | 6. 投稿准备 | ARIS `paper-compile` + venue 官方规则 | 按需打包复现材料、准备 camera-ready 或换 venue |
 
-选题之后先确认最近的工作做到了哪一步，再估算数据、算力、时间和最小实验。用同一批证据写 Results、出主图和审稿。遇到有实质影响的审稿意见，回到对应步骤修，后续环节接着用更新后的产物。
+Rapid 借鉴 Poteto Mode 的 playbook 做法。按交付目标选路线，每步对照实际产物判断完成。续稿复用已核的结果，返修只回到受影响的步骤。写 Results、出图与审稿共用同一份证据记录。
 
 遇到混合结果时，按 [选实验结果与写结论](skills/rapid/playbooks/result-framing.md) 保留原研究问题，先找原方案在现有证据下最有价值的发现，再判断是否要补实验或改方案。
 
@@ -21,7 +21,7 @@ Rapid 把 ARIS、Orchestra、Nature Skills 和 K-Dense 的科研技能串成一�
 
 > 按 Rapid 接着写这个项目。自动选各环节的 skill，复用现有实验，先出英文初稿和主图。审稿点 novelty、experiments 和 robotics。
 
-也可以指定 `只做查新和资源评估`、`从现有 Results 开始` 或 `reviewer: reproducibility`。仅有想法时，能交付选题评估和实验路线，Results 取自实际运行。
+也可以指定 `只交查新和实验预算`、`从现有 Results 写到初稿` 或 `按审稿意见返修并准备投稿包`。仓库入口说明每条路线的退出条件。
 
 ## 上游项目
 
