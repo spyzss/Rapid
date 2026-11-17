@@ -13,6 +13,8 @@ Rapid 把 ARIS、Orchestra、Nature Skills 和 K-Dense 的科研技能串成一�
 
 选题之后先确认最近的工作做到了哪一步，再估算数据、算力、时间和最小实验。用同一批证据写 Results、出主图和审稿。遇到有实质影响的审稿意见，回到对应步骤修，后续环节接着用更新后的产物。
 
+遇到混合结果时，按 [选实验结果与写结论](skills/rapid/playbooks/result-framing.md) 保留原研究问题，先找原方案在现有证据下最有价值的发现，再判断是否要补实验或改方案。
+
 ## 用法
 
 把 [skills/rapid/SKILL.md](skills/rapid/SKILL.md) 的仓库路径交给能读该仓库的 agent，让它按需打开同目录 playbook。GitHub 上游链接固定到具体版本。可以在当前工作区使用，无需全局安装。
